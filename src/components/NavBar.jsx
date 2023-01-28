@@ -7,7 +7,7 @@ const LinkItem = Styled.li`
   list-style-type: none;
   margin: 0;
   & > a { 
-    color: #FFF;
+    color: black;
     font-weight: bold;
     text-decoration: none;
     padding: 20px;

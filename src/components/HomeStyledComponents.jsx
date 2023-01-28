@@ -1,7 +1,7 @@
 import Styled from '@emotion/styled';
 
 export const HomeWrapper = Styled.div`
-    background-color: grey;
+    background-color: #add8e6;
     background-size: cover;
     height: 100%;
     overflow: hidden;

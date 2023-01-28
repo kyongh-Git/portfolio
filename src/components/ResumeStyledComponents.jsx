@@ -1,11 +1,11 @@
 import Styled from '@emotion/styled';
 
 export const ResumeWrapper = Styled.div`
+    color: black;
     background-color: white;
     background-size: cover;
     height: 100%;
     overflow: hidden;
-    color: black;
 `;
 
 export const MainContent = Styled.div`
@@ -50,10 +50,12 @@ export const ResumeEntryWrapper = Styled.div`
 `;
 
 export const Description = Styled.div`
-
+    color: black;
 `;
 
 export const SectionTitle = Styled.div`
-    font-size: 2.20em;
-    font-weight: 720;  
+    font-size: 2.40em;
+    font-weight: 720;
+    padding: 10px;
+    text-align: left;
 `;

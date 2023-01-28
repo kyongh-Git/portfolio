@@ -10,9 +10,9 @@ import { HomeWrapper, MainContent, Greeting, Hobbies, SocialLinks, Avatar} from 
 
 const funFacts = [
     'React',
-    'Redex',
-    'Angular',
-    'Vue'
+    'Flutter',
+    'Big Data',
+    'Machine Learning'
 ]
 
 const funFactsBuilder = (length = 4) => {
@@ -38,7 +38,7 @@ export const Home = () => (
             <Greeting>Hi I am Yong</Greeting>
             <Hobbies>{funFactsBuilder()}</Hobbies>
             <SocialLinks>
-                <SocialLink url='https://www.linkedin.com/in/yonghwan-kim-56111a191/'>
+                <SocialLink url='https://www.linkedin.com/in/profile-yonghwankim-cs/'>
                     <LinkedInIcon style={{ fontSize: 40}} />
                 </SocialLink>
                 <SocialLink url='https://github.com/kyongh-Git'>
